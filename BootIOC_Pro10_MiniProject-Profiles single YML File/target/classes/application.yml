@@ -1,0 +1,50 @@
+#spring:
+#  profiles:
+#    active: dev
+---
+# YML : Application dev profile
+spring:
+ config:
+  activate:
+    on-profile: dev
+ datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql:///ntspbms
+   username: root
+   password: Hari@4940333
+   type: org.apache.commons.dbcp2.BasicDataSource
+---
+# YML : Application prod profile
+spring:
+ config:
+  activate:
+    on-profile: prod
+ datasource:
+   driver-class-name: oracle.jdbc.OracleDriver
+   url: jdbc:oracle:thin:@localhost:1521:orcl
+   username: system
+   password: 1234
+---
+# YML : Application test profile
+spring:
+ config:
+  activate:
+    on-profile: test
+ datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql:///ntspbms
+   username: root
+   password: Hari@4940333
+   type: com.mchange.v2.c3p0.ComboPooledDataSource
+---
+# YML : Application uat profile
+spring:
+ config:
+  activate:
+    on-profile: uat
+ datasource:
+   driver-class-name: oracle.jdbc.OracleDriver
+   url: jdbc:oracle:thin:@localhost:1521:orcl
+   username: system
+   password: 1234
+   type: oracle.ucp.jdbc.PoolDataSourceImpl
