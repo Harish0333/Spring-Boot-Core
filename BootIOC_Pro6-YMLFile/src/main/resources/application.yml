@@ -1,0 +1,23 @@
+org:
+  nt:
+    name: Harish
+    addrs: hyd
+    size: 2000
+    pincode: 521301
+    email: hari@gmail.com
+    nicknames:
+      - Hari
+      - Pandu
+      - Sunny
+    phones:
+      - 9848745177
+      - 9059339944
+      - 9603355468
+    favcolors:
+    - Red
+    - Blue
+    - Green
+    idDetails:
+     voterid: 1235464
+     panid: 66666
+     aadharid: 65498

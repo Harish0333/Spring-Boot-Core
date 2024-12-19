@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "org.nt.name",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.name'"
+  },
+  {
+    "name": "org.nt.email",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.email'"
+  },
+  {
+    "name": "org.nt.size",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.size'"
+  },
+  {
+    "name": "org.nt.pincode",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.pincode'"
+  },
+  {
+    "name": "org.nt.addrs",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.addrs'"
+  },
+  {
+    "name": "org.nt.nickname[2]",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.nickname[2]'"
+  },
+  {
+    "name": "org.nt.nickname[2]",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.nickname[2]'"
+  },
+  {
+    "name": "org.nt.phone[2]",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.phone[2]'"
+  },
+  {
+    "name": "org.nt.nickname[0]",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.nickname[0]'"
+  },
+  {
+    "name": "org.nt.colors[0]",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.colors[0]'"
+  },
+  {
+    "name": "org.nt.nicknames",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.nicknames'"
+  },
+  {
+    "name": "org.nt.phones",
+    "type": "java.lang.String",
+    "description": "A description for 'org.nt.phones'"
+  }
+]}
